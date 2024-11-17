@@ -8,6 +8,8 @@ Watch the platform walkthrough:
 
 [View Demo on Loom](https://www.loom.com/share/016dd66817554572ba4b972f38c96234?sid=a33d7f4b-ee5e-4903-8976-fe0a4974255d)
 
+> Note: If you encounter any issues at 2:04, please refresh the Loom page and resume playback at 2:11 to avoid the technical error.
+
 ## Overview
 
 EnrichAI is a powerful tool built using Streamlit that enhances tabular data by fetching relevant information from online sources and using AI language models for data enrichment. The platform supports input from both CSV files and Google Sheets and provides batch processing, error reporting, and downloadable results.
@@ -54,8 +56,8 @@ project/
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd project/
+   git clone https://github.com/raneshrk02/EnrichAI
+   cd EnrichAI
    ```
 
 2. **Install Dependencies**:
