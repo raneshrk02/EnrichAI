@@ -34,42 +34,6 @@ project/
 └── README.md                     # Project documentation
 ```
 
-## Installation
-
-### Prerequisites
-
-- **Python Version**: Python 3.8 or above
-- **API Credentials**:
-  - Google Sheets: A service account key in JSON format
-  - SerpAPI: API key for search functionality
-  - Groq: API key for language model integration
-
-### Steps
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/raneshrk02/EnrichAI.git
-   cd EnrichAI
-   ```
-
-2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Set Up Environment Variables**:
-   Create a `.env` file in the project directory and add:
-   ```
-   GOOGLE_SHEETS_CREDENTIALS=<path_to_service_account_key>
-   SERPAPI_API_KEY=<your_serpapi_key>
-   GROQ_API_KEY=<your_groq_api_key>
-   ```
-
-4. **Run the Application**:
-   ```bash
-   streamlit run main.py
-   ```
-
 ## Usage
 
 1. **Data Input**: 
@@ -102,11 +66,3 @@ project/
 - Implement parallel processing for faster batch execution
 - Enhance error reporting with more granular details
 - Integrate additional AI models for improved data enrichment
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-## Contributors
-
-- Ranesh RK
